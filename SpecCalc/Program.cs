@@ -16,15 +16,14 @@
         }
 
         private static void OddOrEven(int number)
-        {
+            {
             if (number % 2 == 0)
             {
                 Console.WriteLine($"{number} is prime.");
             }
-            else
-            {
+            else{
                 Console.WriteLine($"{number} is odd.");
-            }
+                }
         }
     }
 }
