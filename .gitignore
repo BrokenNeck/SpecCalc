@@ -1,0 +1,65 @@
+##   Visual Studio & .NET Gitignore   ##
+########################################
+
+# Build outputs (Binaries, object files, and temporary build artifacts)
+[Dd]ebug/
+[Dd]ebugPS/
+[Rr]elease/
+[Xx]64/
+[Xx]86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bbin/
+obj/
+bin/
+Generated%20Files/
+
+# Visual Studio cache, user-specific settings, and project infrastructure
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.mdf
+*.ldf
+
+# .NET / Roslyn Tooling & Diagnostics
+*.userprefs
+*.pidb
+*.suo
+*.tlh
+*.tli
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vsscc
+_Ch things/
+*.aps
+*.ncb
+*.opendb
+*.vc.db
+*.pch
+*.idb
+*.pdb
+*.ilk
+*.lk
+*.exp
+
+# NuGet Packages & Caches
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+packages/
+
+# Rider / JetBrains / VS Code (In case you or a teammate use other editors)
+.idea/
+.vscode/
+*.sln.iml
+
+# OS-generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
